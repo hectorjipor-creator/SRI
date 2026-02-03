@@ -237,7 +237,7 @@ Formato de fichero que incluye:
 
 ### Cálculo de peso sin comprimir
 
-``` Peso = (ancho x Alto) x Profunidad de color x FPS x Tiempo ```
+``` Peso = (Ancho x Alto) x Profundidad de Color x FPS x Tiempo ```
 
 ### Con códec (comprimido)
 Al utilizar un códec, comprimo el vídeo y ya no se envía el vídeo píxel a píxel puesto que el códec ha decidido qué píxeles ha mantenido y cuáles ha eliminado. El bitrate es el dato que nos interesa en el caso de ficheros comprimidos.
