@@ -239,6 +239,13 @@ Formato de fichero que incluye:
 
 ``` Peso = (Ancho x Alto) x Profundidad de Color x FPS x Tiempo ```
 
+- Resolución:
+  - 1080p → 1920 x 1080
+  - 4K → 4096 × 2160
+  - 8K → 7680 × 4320
+- Profundidad de color: bits usados para definir el color de cada píxel (24 habitualmente bits: 8+8+8).
+- FPS: FPS: frames, fotos, por segundo.
+
 ### Con códec (comprimido)
 Al utilizar un códec, comprimo el vídeo y ya no se envía el vídeo píxel a píxel puesto que el códec ha decidido qué píxeles ha mantenido y cuáles ha eliminado. El bitrate es el dato que nos interesa en el caso de ficheros comprimidos.
 
