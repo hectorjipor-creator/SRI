@@ -4,7 +4,7 @@
 
 14,93 Gbps x 10 segundos = 149,3 Gb / 8 bits *(para pasar a Bytes)* = **18,66 GB**
 
-## 2. Si emites un streaming de audio a un bitrate constante (CBR) de 128 kbps y tienes 25 oyentes simultáneos en una red Unicast (uno para cada uno), ¿cuál es el ancho de banda total consumido?
+## 2. Si emites un streaming de audio a un bitrate constante *(CBR)* de 128 kbps y tienes 25 oyentes simultáneos en una red Unicast *(uno para cada uno)*, ¿cuál es el ancho de banda total consumido?
 
 128 kbps x 25 oyentes = 3200 kbps / 1000 *(de kb a Mb)* = **3,2 Mbps**
 
