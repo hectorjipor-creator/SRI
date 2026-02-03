@@ -97,10 +97,10 @@ Esta pequeña diferencia normalemnete se debe al overhead del contenedor o las v
   - Resolución: 240 p
   - Bitrate: 400 kbps
 
-[Video perfil Low](Archivos/Video1.mp4)
+<video src="Archivos/Video1.mp4" controls style="max-width: 1000px;"></video>
 
 - High (fibra):
   - Resolución: 1080 p
   - Bitrate 2 Mbps
 
-[Video perfil High](Archivos/Video2.mp4)
+<video src="Archivos/Video2.mp4" controls style="max-width: 1000px;"></video>
