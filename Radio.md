@@ -39,7 +39,7 @@ Durante la instalación se nos pedirá introducir los siguientes datos:
 - Cotraseña admin -> La que consideremos
 - Contraseña de Streaming (source-password) -> Esta contraseña es importante para usar luego Mixxx
 
-Si quisieramos recofingurar alguno de estos datos se puede realizar mediante el comando:
+Si quisieramos reconfigurar alguno de estos datos se puede realizar mediante el comando:
 ```bash
 sudo dpkg-reconfigure icecast2
 ```
@@ -52,17 +52,17 @@ Tras haber introducido todos estos datos, reiniciamos Icecast mediante el comand
 sudo systemctl restart icecast2
 ```
 
-Antes de realziar el acceso a la inerfaz web, comprobamos el puerto 8000 mediante el comando:
+Antes de realizar el acceso a la interfaz web, comprobamos el puerto 8000 mediante el comando:
 ```bash
 sudo ss -tulnp | grep 8000
 ```
 
 Debería aparecer icecast2 escuchando en 0.0.0.0:8000
 
-Tras haber reiniciado el servicio ycomprobado el puerto 8000, si todo ha funcionado correctamente, deberíamos poder acceder a la interfaz web a través de la siguiente URL:
+Tras haber reiniciado el servicio y comprobado el puerto 8000, si todo ha funcionado correctamente, deberíamos poder acceder a la interfaz web a través de la siguiente URL:
 ```http://172.30.16.101:8000```
 
-En este caso mi IP es la siguiente: 172.30.16.101
+En este caso mi IP es: ```172.30.16.101```
 
 ## 2. Máquina DJ (Ubuntu 24 + Mixxx)
 
@@ -85,7 +85,7 @@ sudo apt install mixxx
 ```
 
 ### 2.4 Configuración de emisión en Mixxx
-Una vez instalado Mixxx, accedemos a este servicio y en Mixxx -> Preferencias -> Live Broadcasting modificamos lo siguiente:
+Una vez instalado Mixxx, accedemos a este servicio y en ```Mixxx -> Preferencias -> Live Broadcasting``` modificamos lo siguiente:
 - Tipo: Icecast 2
 - Servidor: 172.30.16.101 (la IP de nuestro servidor Icecast)
 - Puerto: 8000
