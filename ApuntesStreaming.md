@@ -41,6 +41,8 @@ Internet público bloquea multicast → solo útil en redes internas.
 - Envío a toda la red local.
 - No se usa para streaming profesional.
 
+<img width="1088" height="575" alt="Topologia" src="https://github.com/user-attachments/assets/1e47f56c-881d-43a6-b251-4bbc482ab9ee" />
+
 ## 3.  Capa de transporte TCP vs UDP
 
 ### TCP
@@ -142,6 +144,16 @@ Usado por:
 | WebRTC        | UDP/TCP   | —          | Videollamadas       | Complejo      | No        |
 | RTSP          | UDP+TCP   | —          | Cámaras             | Problemas NAT | No        |
 
+### Ejemplos de Protocolos de Streaming
+Como hemos visto, la industria utiliza mucho más TCP que UDP.
+- Netflix, HBO, Disney+, etc utilizan HTTP adaptativo. Al ver una película estás descargando pequeños chunks, trozos del vídeo, secuencialmente vía TCP. 
+- Spotify y Apple Music también usa TCP. ¿Has escuchado una canción alguna vez en Spotify en el que pierdas un fragmento? Quizás se pare pero no escucharás algo raro como en una videollamada. 
+- Twitch (del lado del receptor): usa TCP. Por eso hay un delay. 
+- La radio online también es TCP (y vamos a ponerlo en práctica con Icecast2).
+- Cuando se necesita interactuar con la otra parte el delay no es admisible y por  tanto se utiliza UDP.
+- Otra curiosidad es que videojuegos como el LOL o el Call Of Duty utilizan TCP.
+
+
 ## 6. Icecast2
 Icecast es un servidor de streaming de audio.
 No genera contenido → necesita un source client como:
@@ -201,12 +213,16 @@ Número de muestras por segundo. El audio es una onda analógica. Para digitaliz
 
 Estándar: **44.1 kHZ** (calidad CD).
 
-## 10. Profunidad de bits
+<img width="531" height="447" alt="Ondas" src="https://github.com/user-attachments/assets/4c1c7326-aa2f-4c13-861e-c1d6bb567efa" />
+
+## 10. Profundidad de bits
 La profundidad es la calidad de dicha foto. Se trata de la cantidad de bits que se transmiten por segundo
 Bits por muestra.
 
 Estándar: **16 bits**.
 A mayor profundidad → más rango dinámico → más calidad.
+
+<img width="698" height="405" alt="Captura de pantalla 2026-02-03 154918" src="https://github.com/user-attachments/assets/cfae616e-c560-4de7-9c17-443dbb0f8df3" />
 
 ## 11. Canales
 Número de audios independientes que viajan en el mismo stream.
@@ -215,6 +231,8 @@ Número de audios independientes que viajan en el mismo stream.
 - 5.1
 - 7.1
 - ...
+
+<img width="367" height="512" alt="Canal5_1" src="https://github.com/user-attachments/assets/549196ef-3392-47a0-aa74-812c6ca24c37" />
 
 ## 12. Cálculo de peso (audio)
 
