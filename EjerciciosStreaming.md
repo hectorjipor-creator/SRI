@@ -104,6 +104,8 @@ Porcentaje = (consumo / capacidad_total) × 100
 Déficit = consumo_total - capacidad_disponible
 ```
 
+**Explicación:** Si el resultado es positivo, falta ancho de banda.
+
 ## 9. Conversión de tiempo
 
 ```bash
