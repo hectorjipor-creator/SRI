@@ -111,4 +111,4 @@ Para poder escuchar la radio de un compañero, esté tiene que tener su propio s
 - En nuestra máquina introducimos en el navegador por URL lo siguiente:
    ```http://172.30.16.102:8000/radio-asir```
    
-En este caso, la ip del compañero es 172.30.16.101 y su mountpoint es radio-asir. Si todo está configurado correctamente tanto en nuestra máquina como en la suya, una vez introduzcamos la URL deberíamos empezar a escuchar la emisión de nuestro compañero en nuestra máquina.
+En este caso, la ip del compañero es ```172.30.16.101``` y su mountpoint es ```radio-asir```. Si todo está configurado correctamente tanto en nuestra máquina como en la suya, una vez introduzcamos la URL deberíamos empezar a escuchar la emisión de nuestro compañero en nuestra máquina.
