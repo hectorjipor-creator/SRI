@@ -310,6 +310,6 @@ H.265 = mejor compresión → menos artefactos a igual bitrate.
 
 <img width="1385" height="779" alt="Conversion Unidades" src="https://github.com/user-attachments/assets/d4f8f868-24a3-47a5-8ec7-a14dcdcf1484" />
 
-<img width="905" height="623" alt="Conversion2" src="https://github.com/user-attachments/assets/5237749f-d92a-401d-8228-3fc13a38e458" />
+<img width="1385" height="779" alt="Conversion2" src="https://github.com/user-attachments/assets/5237749f-d92a-401d-8228-3fc13a38e458" />
 
 
