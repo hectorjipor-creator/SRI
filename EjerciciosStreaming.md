@@ -1,3 +1,116 @@
+# Fórmulas importantes para la resolución de ejercicios
+
+## 1. Conversión entre unidades
+
+### Bits ↔ Bytes
+
+```bash
+1 Byte = 8 bits
+Bytes = bits / 8
+```
+
+## Unidades digitales
+
+```bash
+1 kB = 1000 B
+1 MB = 1000 kB
+1 GB = 1000 MB
+
+1 kbps = 1000 bps
+1 Mbps = 1000 kbps
+1 Gbps = 1000 Mbps
+```
+
+## 2. Tamaño de archivo a partir del bitrate
+
+### Fórmula general
+
+```bash
+Tamaño (bits) = bitrate × tiempo (s)
+Tamaño (Bytes) = bits / 8
+Tamaño (MB) = Bytes / 1.000.000
+```
+
+**Explicación:**
+El bitrate indica cuántos bits se generan por segundo. Multiplicarlo por el tiempo da el tamaño total del archivo.
+
+## 3. Bitrate sin compresión
+
+### Audio PCM (sin compresión)
+
+```bash
+Bitrate = frecuencia_muestreo × profundidad_bits × canales
+```
+
+**Ejemplo:**
+48.000 Hz × 24 bits × 2 canales = 2.304.000 bps
+
+### Vídeo sin compresión
+
+```bash
+Bitrate = ancho × alto × bits_por_píxel × fps
+```
+
+**Ejemplo:**
+7680 × 4320 × 30 bits × 60 fps
+
+## 4. Horas almacenables en un disco
+
+### Fórmula
+
+```bash
+Tiempo (s) = capacidad_total_bits / bitrate
+Horas = Tiempo / 3600
+```
+
+**Explicación:**
+Se divide el total de bits disponibles entre los bits consumidos por segundo.
+
+## 5. Streaming Unicast
+
+### Fórmula
+
+```bash
+Consumo_total = bitrate_usuario × número_usuarios
+```
+
+**Explicación:**
+Cada usuario recibe su propia copia del flujo.
+
+## 6. Streaming Multicast
+
+### Fórmula
+
+```bash
+Consumo_total = bitrate_del_flujo
+```
+
+**Explicación:**
+El servidor solo envía una copia, independientemente del número de oyentes.
+
+## 7. Porcentaje de uso de red
+
+### Fórmula
+
+```bash
+Porcentaje = (consumo / capacidad_total) × 100
+```
+
+## 8. Déficit de ancho de banda
+
+### Fórmula
+
+```bash
+Déficit = consumo_total - capacidad_disponible
+```
+
+## 9. Conversión de tiempo
+
+```bash
+Segundos = minutos × 60
+Segundos = horas × 3600
+```
+
 # Ejercicios Resueltos Streaming
 
 ## 1. Con un bitrate de 14.93 Gbps, ¿cuánto espacio de disco ocupará una toma de 10 segundos?
