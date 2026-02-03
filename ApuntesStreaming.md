@@ -248,13 +248,13 @@ El bitrate es la cantidad de información que puede enviarse por segundo.
 
 ## 14. Bitrates recomendados
 
-| Resolución | Bitrate recomendado |
-|------------|----------------------|
-| 4K         | 25–45 Mbps           |
-| 1080p      | 6–9 Mbps             |
-| 720p       | 3–4 Mbps             |
-| 480p       | 1 Mbps               |
-| 360p       | 700 kbps             |
+| Resolución      | Calidad    | Bitrate Mínimo | Bitrate Recomendado |
+|-----------------|------------|----------------|-----------------------|
+| 4K (2160p)      | Ultra HD   | 15 Mbps        | 25 - 45 Mbps         |
+| 1080p (Full HD) | Alta       | 4 Mbps         | 6 - 9 Mbps           |
+| 720p (HD)       | Media      | 1.5 Mbps       | 3 - 4 Mbps           |
+| 480p (SD)       | Estándar   | 500 kbps       | 1 Mbps               |
+| 360p            | Baja       | 400 kbps       | 700 kbps             |
 
 ## 15. FFmpeg
 
