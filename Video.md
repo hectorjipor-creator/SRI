@@ -67,7 +67,7 @@ Datos:
 - Bitrate real: 2320 kbps
 - Velocidad 1.17x
 
-Imagen
+![Video H.264](Archivos/Video1.png)
 
 Para crear el fichero en H.265 con un bitrate de 2 Mbps usamos el siguiente comando:
 ```bash
@@ -79,7 +79,7 @@ Datos:
 - Bitrate real: 2354 kbps
 - Velocidad: 0.55x
 
-Imagen
+![Video H.265](Archivos/Video2.png)
 
 **¿Cuál presenta más artefactos (“cuadraditos”)?**
 El formato que más artefactos a igual bitrate representa es H.264 ya que H.265 es mucho más eficiente y mantiene una mejor calidad con la misma cantidad de flujo de bits.
