@@ -66,7 +66,7 @@ En este caso mi IP es la siguiente: 172.30.16.101
 
 ## 2. Máquina DJ (Ubuntu 24 + Mixxx)
 
-### 2.1 COnfiguración de red
+### 2.1 Configuración de red
 AL igual que con la máquina de servidor de streaming, ponemos el adaptador de red en modo adaptador puente y configuramos la IP que nos de el adapatador como IP estática.
 
 ### 2.2 Comprobación de sonido
@@ -108,7 +108,7 @@ Una vez configurado, al pulsar ```Conectar```, en el panel de Icecast aparecerá
 ### 2.6 Escuchar la radio de un compañero
 Para poder escuchar la radio de un compañero, esté tiene que tener su propio servidor o mountpoint configurado para poder acceder a su radio.
 
-1. En nuestra máquina introducimos en el navegador por URL lo siguiente:
+- En nuestra máquina introducimos en el navegador por URL lo siguiente:
    ```http://172.30.16.102:8000/radio-asir```
    
 En este caso, la ip del compañero es 172.30.16.101 y su mountpoint es radio-asir. Si todo está configurado correctamente tanto en nuestra máquina como en la suya, una vez introduzcamos la URL deberíamos empezar a escuchar la emisión de nuestro compañero en nuestra máquina.
