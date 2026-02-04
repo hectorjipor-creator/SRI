@@ -122,7 +122,7 @@ Si emites un streaming de audio a un bitrate constante (**CBR**) de **128 kbps**
 
 ---
 
-### 🔍 Explicación Paso a Paso
+###  Explicación Paso a Paso
 
 1.  **Identificar el tipo de red (Unicast):**
     En el modelo **Unicast**, el servidor establece una conexión única para cada cliente. Esto significa que el ancho de banda se multiplica por el número de usuarios.
@@ -138,11 +138,11 @@ Si emites un streaming de audio a un bitrate constante (**CBR**) de **128 kbps**
 
 ---
 
-### ✅ Respuesta Correcta
+###  Respuesta Correcta
 
 La respuesta correcta es la **c. 3.2 Mbps**.
 
-#### 💡 Análisis de las opciones:
+####  Análisis de las opciones:
 * **a. 25 Mbps:** Incorrecto. No se multiplica el número de usuarios por 1 Mbps.
 * **b. 3200 Mbps:** Incorrecto. El número es correcto, pero la unidad (Mega) es demasiado grande. Serían 3200 **kbps**.
 * **c. 3.2 Mbps:** **CORRECTO**.
@@ -155,7 +155,7 @@ Tienes un disco de **500 GB**. ¿Cuántas horas de vídeo **HD a 2 Mbps** podrí
 
 ---
 
-### 🔍 Resolución Paso a Paso
+###  Resolución Paso a Paso
 
 Para resolver esto, primero debemos saber cuánto "pesa" una hora de ese vídeo y luego ver cuántas veces cabe en el disco.
 
@@ -172,11 +172,11 @@ $$\text{Total horas} = \frac{500 \text{ GB}}{0,9 \text{ GB/hora}} = \mathbf{555,
 
 ---
 
-### ✅ Respuesta Correcta
+###  Respuesta Correcta
 
 La respuesta más aproximada es la **a. 555 horas**.
 
-#### 💡 Por qué fallan las otras:
+####  Por qué fallan las otras:
 * **b. 1000 horas:** Es el error de no dividir entre 8 (500 / 0.5 Mbps si no se hiciera el cambio de bits a Bytes).
 * **c. 250 horas:** No corresponde a la división correcta.
 * **d. 277 horas:** Es un error común de cálculo si se divide mal el bitrate inicial.
