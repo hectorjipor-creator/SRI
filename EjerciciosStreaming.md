@@ -795,3 +795,5 @@ La respuesta más aproximada es la **a. 555 horas**.
 # Conversión de unidades
 
 <img width="1385" height="779" alt="Conversion Unidades" src="https://github.com/user-attachments/assets/d44e2a8a-369b-4d3f-8e1f-af8935b90da8" />
+
+<img width="1385" height="624" alt="Captura de pantalla 2026-02-03 155602" src="https://github.com/user-attachments/assets/99a1b6db-4e25-4991-ae83-0f7027def949" />
