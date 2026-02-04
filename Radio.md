@@ -109,6 +109,6 @@ Una vez configurado, al pulsar ```Conectar```, en el panel de Icecast aparecerá
 Para poder escuchar la radio de un compañero, esté tiene que tener su propio servidor o mountpoint configurado para poder acceder a su radio.
 
 - En nuestra máquina introducimos en el navegador por URL lo siguiente:
-   ```http://172.30.16.102:8000/radio-asir```
+   ```http://172.30.16.101:8000/radio-asir```
    
 En este caso, la ip del compañero es ```172.30.16.101``` y su mountpoint es ```radio-asir```. Si todo está configurado correctamente tanto en nuestra máquina como en la suya, una vez introduzcamos la URL deberíamos empezar a escuchar la emisión de nuestro compañero en nuestra máquina.
